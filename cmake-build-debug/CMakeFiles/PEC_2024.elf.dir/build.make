@@ -529,10 +529,24 @@ CMakeFiles/PEC_2024.elf.dir/User/Device/Vision.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PEC_2024.elf.dir/User/Device/Vision.c.s"
 	D:\GNU_Arm_Embedded_GCC\xpack-arm-none-eabi-gcc-13.2.1-1.1\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\PEC_2024\PEC_2024\User\Device\Vision.c -o CMakeFiles\PEC_2024.elf.dir\User\Device\Vision.c.s
 
+CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj: CMakeFiles/PEC_2024.elf.dir/flags.make
+CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj: E:/PEC_2024/PEC_2024/User/Device/deepmotor.c
+CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj: CMakeFiles/PEC_2024.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\PEC_2024\PEC_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj"
+	D:\GNU_Arm_Embedded_GCC\xpack-arm-none-eabi-gcc-13.2.1-1.1\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj -MF CMakeFiles\PEC_2024.elf.dir\User\Device\deepmotor.c.obj.d -o CMakeFiles\PEC_2024.elf.dir\User\Device\deepmotor.c.obj -c E:\PEC_2024\PEC_2024\User\Device\deepmotor.c
+
+CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.i"
+	D:\GNU_Arm_Embedded_GCC\xpack-arm-none-eabi-gcc-13.2.1-1.1\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\PEC_2024\PEC_2024\User\Device\deepmotor.c > CMakeFiles\PEC_2024.elf.dir\User\Device\deepmotor.c.i
+
+CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.s"
+	D:\GNU_Arm_Embedded_GCC\xpack-arm-none-eabi-gcc-13.2.1-1.1\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\PEC_2024\PEC_2024\User\Device\deepmotor.c -o CMakeFiles\PEC_2024.elf.dir\User\Device\deepmotor.c.s
+
 CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj: CMakeFiles/PEC_2024.elf.dir/flags.make
 CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj: E:/PEC_2024/PEC_2024/User/Device/magnet.c
 CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj: CMakeFiles/PEC_2024.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\PEC_2024\PEC_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\PEC_2024\PEC_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj"
 	D:\GNU_Arm_Embedded_GCC\xpack-arm-none-eabi-gcc-13.2.1-1.1\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj -MF CMakeFiles\PEC_2024.elf.dir\User\Device\magnet.c.obj.d -o CMakeFiles\PEC_2024.elf.dir\User\Device\magnet.c.obj -c E:\PEC_2024\PEC_2024\User\Device\magnet.c
 
 CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.i: cmake_force
@@ -546,7 +560,7 @@ CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.s: cmake_force
 CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.obj: CMakeFiles/PEC_2024.elf.dir/flags.make
 CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.obj: E:/PEC_2024/PEC_2024/User/FSM/Place.c
 CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.obj: CMakeFiles/PEC_2024.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\PEC_2024\PEC_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\PEC_2024\PEC_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.obj"
 	D:\GNU_Arm_Embedded_GCC\xpack-arm-none-eabi-gcc-13.2.1-1.1\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.obj -MF CMakeFiles\PEC_2024.elf.dir\User\FSM\Place.c.obj.d -o CMakeFiles\PEC_2024.elf.dir\User\FSM\Place.c.obj -c E:\PEC_2024\PEC_2024\User\FSM\Place.c
 
 CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.i: cmake_force
@@ -560,7 +574,7 @@ CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.s: cmake_force
 CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.obj: CMakeFiles/PEC_2024.elf.dir/flags.make
 CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.obj: E:/PEC_2024/PEC_2024/User/FSM/Reset.c
 CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.obj: CMakeFiles/PEC_2024.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\PEC_2024\PEC_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\PEC_2024\PEC_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.obj"
 	D:\GNU_Arm_Embedded_GCC\xpack-arm-none-eabi-gcc-13.2.1-1.1\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.obj -MF CMakeFiles\PEC_2024.elf.dir\User\FSM\Reset.c.obj.d -o CMakeFiles\PEC_2024.elf.dir\User\FSM\Reset.c.obj -c E:\PEC_2024\PEC_2024\User\FSM\Reset.c
 
 CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.i: cmake_force
@@ -574,7 +588,7 @@ CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.s: cmake_force
 CMakeFiles/PEC_2024.elf.dir/User/Task/fsm_main.c.obj: CMakeFiles/PEC_2024.elf.dir/flags.make
 CMakeFiles/PEC_2024.elf.dir/User/Task/fsm_main.c.obj: E:/PEC_2024/PEC_2024/User/Task/fsm_main.c
 CMakeFiles/PEC_2024.elf.dir/User/Task/fsm_main.c.obj: CMakeFiles/PEC_2024.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\PEC_2024\PEC_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/PEC_2024.elf.dir/User/Task/fsm_main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\PEC_2024\PEC_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/PEC_2024.elf.dir/User/Task/fsm_main.c.obj"
 	D:\GNU_Arm_Embedded_GCC\xpack-arm-none-eabi-gcc-13.2.1-1.1\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PEC_2024.elf.dir/User/Task/fsm_main.c.obj -MF CMakeFiles\PEC_2024.elf.dir\User\Task\fsm_main.c.obj.d -o CMakeFiles\PEC_2024.elf.dir\User\Task\fsm_main.c.obj -c E:\PEC_2024\PEC_2024\User\Task\fsm_main.c
 
 CMakeFiles/PEC_2024.elf.dir/User/Task/fsm_main.c.i: cmake_force
@@ -620,6 +634,7 @@ PEC_2024_elf_OBJECTS = \
 "CMakeFiles/PEC_2024.elf.dir/User/BSP/VisionUnpack.c.obj" \
 "CMakeFiles/PEC_2024.elf.dir/User/Device/M2006.c.obj" \
 "CMakeFiles/PEC_2024.elf.dir/User/Device/Vision.c.obj" \
+"CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj" \
 "CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj" \
 "CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.obj" \
 "CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.obj" \
@@ -661,13 +676,14 @@ PEC_2024.elf: CMakeFiles/PEC_2024.elf.dir/User/BSP/MyCan.c.obj
 PEC_2024.elf: CMakeFiles/PEC_2024.elf.dir/User/BSP/VisionUnpack.c.obj
 PEC_2024.elf: CMakeFiles/PEC_2024.elf.dir/User/Device/M2006.c.obj
 PEC_2024.elf: CMakeFiles/PEC_2024.elf.dir/User/Device/Vision.c.obj
+PEC_2024.elf: CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj
 PEC_2024.elf: CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj
 PEC_2024.elf: CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.obj
 PEC_2024.elf: CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.obj
 PEC_2024.elf: CMakeFiles/PEC_2024.elf.dir/User/Task/fsm_main.c.obj
 PEC_2024.elf: CMakeFiles/PEC_2024.elf.dir/build.make
 PEC_2024.elf: CMakeFiles/PEC_2024.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\PEC_2024\PEC_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking C executable PEC_2024.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\PEC_2024\PEC_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C executable PEC_2024.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PEC_2024.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building E:/PEC_2024/PEC_2024/cmake-build-debug/PEC_2024.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building E:/PEC_2024/PEC_2024/cmake-build-debug/PEC_2024.bin"

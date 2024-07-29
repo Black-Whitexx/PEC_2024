@@ -66,6 +66,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/PEC_2024/PEC_2024/User/BSP/VisionUnpack.c" "CMakeFiles/PEC_2024.elf.dir/User/BSP/VisionUnpack.c.obj" "gcc" "CMakeFiles/PEC_2024.elf.dir/User/BSP/VisionUnpack.c.obj.d"
   "E:/PEC_2024/PEC_2024/User/Device/M2006.c" "CMakeFiles/PEC_2024.elf.dir/User/Device/M2006.c.obj" "gcc" "CMakeFiles/PEC_2024.elf.dir/User/Device/M2006.c.obj.d"
   "E:/PEC_2024/PEC_2024/User/Device/Vision.c" "CMakeFiles/PEC_2024.elf.dir/User/Device/Vision.c.obj" "gcc" "CMakeFiles/PEC_2024.elf.dir/User/Device/Vision.c.obj.d"
+  "E:/PEC_2024/PEC_2024/User/Device/deepmotor.c" "CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj" "gcc" "CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj.d"
   "E:/PEC_2024/PEC_2024/User/Device/magnet.c" "CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj" "gcc" "CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj.d"
   "E:/PEC_2024/PEC_2024/User/FSM/Place.c" "CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.obj" "gcc" "CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.obj.d"
   "E:/PEC_2024/PEC_2024/User/FSM/Reset.c" "CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.obj" "gcc" "CMakeFiles/PEC_2024.elf.dir/User/FSM/Reset.c.obj.d"

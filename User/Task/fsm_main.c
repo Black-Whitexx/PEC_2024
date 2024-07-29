@@ -6,6 +6,7 @@
 uint8_t fsm_status = 0;
 uint8_t vision_data[10];
 uint8_t aim_position = 5;
+extern uint8_t vision_buffer[256];
 void fsm_main(void){
     switch(fsm_status){
         /* Reset */
@@ -28,4 +29,17 @@ void fsm_main(void){
             HAL_Delay(1000);
             fsm_status = 0;
     }
+}
+
+void debug(void){
+    HAL_GPIO_TogglePin(GPIOE,GPIO_PIN_12);
+    deepmotor_setposition(5);
+    HAL_Delay(1000);
+}
+
+void init_fsm(void)
+{
+    InitCan();
+    HAL_UART_Receive_DMA(&huart2,vision_buffer,10);
+    deepmotor_enable();
 }

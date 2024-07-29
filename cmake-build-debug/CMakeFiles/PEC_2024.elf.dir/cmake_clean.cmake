@@ -64,6 +64,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/PEC_2024.elf.dir/User/Device/M2006.c.obj.d"
   "CMakeFiles/PEC_2024.elf.dir/User/Device/Vision.c.obj"
   "CMakeFiles/PEC_2024.elf.dir/User/Device/Vision.c.obj.d"
+  "CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj"
+  "CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj.d"
   "CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj"
   "CMakeFiles/PEC_2024.elf.dir/User/Device/magnet.c.obj.d"
   "CMakeFiles/PEC_2024.elf.dir/User/FSM/Place.c.obj"

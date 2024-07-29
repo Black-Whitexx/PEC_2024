@@ -54,4 +54,11 @@ CMakeFiles/PEC_2024.elf.dir/User/Task/fsm_main.c.obj: \
  D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/sys/lock.h \
  D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/sys/_locale.h \
  D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/strings.h \
- D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/sys/string.h
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/sys/string.h \
+ E:\PEC_2024\PEC_2024\User\Device/magnet.h \
+ E:\PEC_2024\PEC_2024\User\Device/deepmotor.h \
+ E:\PEC_2024\PEC_2024\Core\Inc/fdcan.h \
+ E:\PEC_2024\PEC_2024\Core\Inc/main.h \
+ E:\PEC_2024\PEC_2024\User\BSP/MyCan.h \
+ E:\PEC_2024\PEC_2024\Drivers\CMSIS\Device\ST\STM32G4xx\Include/stm32g474xx.h \
+ E:\PEC_2024\PEC_2024\Core\Inc/usart.h

@@ -431,6 +431,12 @@
 		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/Vision.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/deepmotor.c">
+			<Option target="PEC_2024.elf"/>
+		</Unit>
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/deepmotor.h">
+			<Option target="PEC_2024.elf"/>
+		</Unit>
 		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/magnet.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>

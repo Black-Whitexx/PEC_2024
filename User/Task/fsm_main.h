@@ -9,5 +9,10 @@
 #include "Place.h"
 #include "Vision.h"
 #include "magnet.h"
+#include "deepmotor.h"
+#include "MyCan.h"
+#include "usart.h"
 void fsm_main(void);
+void debug(void);
+void init_fsm(void);
 #endif //PEC_2024_FSM_MAIN_H

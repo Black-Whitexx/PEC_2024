@@ -3,3 +3,11 @@
 //
 
 #include "magnet.h"
+void put_down_chess()
+{
+
+}
+void get_up_chess()
+{
+
+}

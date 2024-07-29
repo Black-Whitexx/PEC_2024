@@ -40,4 +40,27 @@ CMakeFiles/PEC_2024.elf.dir/Core/Src/main.c.obj: \
  E:\PEC_2024\PEC_2024\Core\Inc/dma.h E:\PEC_2024\PEC_2024\Core\Inc/main.h \
  E:\PEC_2024\PEC_2024\Core\Inc/fdcan.h \
  E:\PEC_2024\PEC_2024\Core\Inc/usart.h \
- E:\PEC_2024\PEC_2024\Core\Inc/gpio.h
+ E:\PEC_2024\PEC_2024\Core\Inc/gpio.h \
+ E:\PEC_2024\PEC_2024\User\Task/fsm_main.h \
+ E:\PEC_2024\PEC_2024\User\FSM/Reset.h \
+ E:\PEC_2024\PEC_2024\User\Device/M2006.h \
+ E:\PEC_2024\PEC_2024\User\FSM/Place.h \
+ E:\PEC_2024\PEC_2024\User\Device/Vision.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/string.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/_ansi.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/newlib.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/sys/config.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/machine/ieeefp.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/sys/reent.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/_ansi.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/sys/cdefs.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/sys/_types.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/machine/_types.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/sys/lock.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/sys/_locale.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/strings.h \
+ D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/include/sys/string.h \
+ E:\PEC_2024\PEC_2024\User\Device/magnet.h \
+ E:\PEC_2024\PEC_2024\User\Device/deepmotor.h \
+ E:\PEC_2024\PEC_2024\User\BSP/MyCan.h \
+ E:\PEC_2024\PEC_2024\Drivers\CMSIS\Device\ST\STM32G4xx\Include/stm32g474xx.h

@@ -904,6 +904,30 @@ User/Device/Vision.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PEC_2024.elf.dir\build.make CMakeFiles/PEC_2024.elf.dir/User/Device/Vision.c.s
 .PHONY : User/Device/Vision.c.s
 
+User/Device/deepmotor.obj: User/Device/deepmotor.c.obj
+.PHONY : User/Device/deepmotor.obj
+
+# target to build an object file
+User/Device/deepmotor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PEC_2024.elf.dir\build.make CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.obj
+.PHONY : User/Device/deepmotor.c.obj
+
+User/Device/deepmotor.i: User/Device/deepmotor.c.i
+.PHONY : User/Device/deepmotor.i
+
+# target to preprocess a source file
+User/Device/deepmotor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PEC_2024.elf.dir\build.make CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.i
+.PHONY : User/Device/deepmotor.c.i
+
+User/Device/deepmotor.s: User/Device/deepmotor.c.s
+.PHONY : User/Device/deepmotor.s
+
+# target to generate assembly for a file
+User/Device/deepmotor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PEC_2024.elf.dir\build.make CMakeFiles/PEC_2024.elf.dir/User/Device/deepmotor.c.s
+.PHONY : User/Device/deepmotor.c.s
+
 User/Device/magnet.obj: User/Device/magnet.c.obj
 .PHONY : User/Device/magnet.obj
 
@@ -1106,6 +1130,9 @@ help:
 	@echo ... User/Device/Vision.obj
 	@echo ... User/Device/Vision.i
 	@echo ... User/Device/Vision.s
+	@echo ... User/Device/deepmotor.obj
+	@echo ... User/Device/deepmotor.i
+	@echo ... User/Device/deepmotor.s
 	@echo ... User/Device/magnet.obj
 	@echo ... User/Device/magnet.i
 	@echo ... User/Device/magnet.s

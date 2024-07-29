@@ -94,7 +94,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-    HAL_UART_Receive_DMA(&huart2,vision_buffer,10);
+    init_fsm();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -104,7 +104,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    fsm_main();
+    //fsm_main();
+    debug();
   }
   /* USER CODE END 3 */
 }
