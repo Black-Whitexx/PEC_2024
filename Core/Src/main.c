@@ -26,6 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "fsm_main.h"
+#include "retarget.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -93,8 +94,10 @@ int main(void)
   MX_FDCAN1_Init();
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
+  MX_FDCAN2_Init();
   /* USER CODE BEGIN 2 */
     init_fsm();
+    RetargetInit(&huart1);
   /* USER CODE END 2 */
 
   /* Infinite loop */

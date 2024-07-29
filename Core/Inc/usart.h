@@ -29,7 +29,13 @@ extern "C" {
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
+#define uart_len 256
 
+extern uint8_t UART1_RX_buf[uart_len];
+extern uint8_t UART2_RX_buf[uart_len];
+extern uint8_t UART3_RX_buf[uart_len];
+extern uint8_t UART4_RX_buf[uart_len];
+extern uint8_t UART5_RX_buf[uart_len];
 /* USER CODE END Includes */
 
 extern UART_HandleTypeDef huart1;

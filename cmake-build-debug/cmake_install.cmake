@@ -1,4 +1,4 @@
-# Install script for directory: E:/PEC_2024/PEC_2024
+# Install script for directory: F:/Desk/Baduk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/PEC_2024/PEC_2024/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/Desk/Baduk/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
