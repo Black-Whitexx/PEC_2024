@@ -5,5 +5,7 @@
 #ifndef PEC_2024_M2006_H
 #define PEC_2024_M2006_H
 #include "stm32g4xx.h"
+#include "PID.h"
+#include "MyCan.h"
 void M2006_SetPosition(const uint8_t number, int32_t position);
 #endif //PEC_2024_M2006_H

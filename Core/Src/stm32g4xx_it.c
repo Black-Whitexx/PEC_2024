@@ -23,7 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "MyCan.h"
-#include "PID.h"
+#include "../../User/Lib/PID.h"
 #include "usart.h"
 #include "string.h"
 /* USER CODE END Includes */

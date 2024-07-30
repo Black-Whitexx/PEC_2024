@@ -101,7 +101,7 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 
     HAL_StatusTypeDef HAL_RetVal;
     FDCAN_RxHeaderTypeDef RxHeader;
-    uint8_t rxdata[8];\
+    uint8_t rxdata[8];
     uint8_t data;
     /*电机号记录*/
     static uint8_t index;
@@ -126,26 +126,6 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
             }
             __HAL_FDCAN_ENABLE_IT(&hfdcan2,FDCAN_IT_RX_FIFO0_NEW_MESSAGE);
         }
-//        else if(hfdcan->Instance == FDCAN1)
-//        {
-//
-//            HAL_RetVal = HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &RxHeader, rxdata);      //从CAN1接收数据，通过过滤器后放入FIFO0,存入RxMessage数据帧
-//            if(HAL_RetVal == HAL_OK)
-//            {
-//                if(RxHeader.Identifier >= 0x201 && RxHeader.Identifier <= 0x204)
-//                {
-//                    index = RxHeader.Identifier - 0x201;   //结构体数组0-7对应电机ID1-8
-//                    Motor_info_record(&motor_info[index], rxdata);   //解包
-//                }
-//                else if(RxHeader.Identifier >= 0x205 && RxHeader.Identifier <= 0x208)
-//                {
-//                    index = RxHeader.Identifier - 0x201;   //结构体数组0-7对应电机ID1-8
-//                    Motor_info_record(&motor_info[index], rxdata);   //解包
-//
-//                }
-//            }
-//            __HAL_FDCAN_ENABLE_IT(&hfdcan1,FDCAN_IT_RX_FIFO0_NEW_MESSAGE);
-//        }
     }
 }
 

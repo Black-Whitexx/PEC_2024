@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="F:/Desk/Baduk/cmake-build-debug"/>
+				<Option working_dir="E:/PEC_2024/PEC_2024/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PEC_2024.elf">
-				<Option output="F:/Desk/Baduk/cmake-build-debug/PEC_2024.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/Desk/Baduk/cmake-build-debug"/>
+				<Option output="E:/PEC_2024/PEC_2024/cmake-build-debug/PEC_2024.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/PEC_2024/PEC_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -27,32 +27,33 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32G474xx"/>
-					<Add directory="F:/Desk/Baduk/Core/Inc"/>
-					<Add directory="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc"/>
-					<Add directory="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="F:/Desk/Baduk/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
-					<Add directory="F:/Desk/Baduk/Drivers/CMSIS/Include"/>
-					<Add directory="F:/Desk/Baduk/User/BSP"/>
-					<Add directory="F:/Desk/Baduk/User/FSM"/>
-					<Add directory="F:/Desk/Baduk/User/Device"/>
-					<Add directory="F:/Desk/Baduk/User/Task"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="E:/PEC_2024/PEC_2024/Core/Inc"/>
+					<Add directory="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
+					<Add directory="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include"/>
+					<Add directory="E:/PEC_2024/PEC_2024/User/BSP"/>
+					<Add directory="E:/PEC_2024/PEC_2024/User/FSM"/>
+					<Add directory="E:/PEC_2024/PEC_2024/User/Device"/>
+					<Add directory="E:/PEC_2024/PEC_2024/User/Task"/>
+					<Add directory="E:/PEC_2024/PEC_2024/User/Lib"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/include"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 PEC_2024.elf"/>
-					<CompileFile command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 PEC_2024.elf"/>
+					<CompileFile command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PEC_2024.elf/fast">
-				<Option output="F:/Desk/Baduk/cmake-build-debug/PEC_2024.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/Desk/Baduk/cmake-build-debug"/>
+				<Option output="E:/PEC_2024/PEC_2024/cmake-build-debug/PEC_2024.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/PEC_2024/PEC_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -60,420 +61,421 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32G474xx"/>
-					<Add directory="F:/Desk/Baduk/Core/Inc"/>
-					<Add directory="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc"/>
-					<Add directory="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="F:/Desk/Baduk/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
-					<Add directory="F:/Desk/Baduk/Drivers/CMSIS/Include"/>
-					<Add directory="F:/Desk/Baduk/User/BSP"/>
-					<Add directory="F:/Desk/Baduk/User/FSM"/>
-					<Add directory="F:/Desk/Baduk/User/Device"/>
-					<Add directory="F:/Desk/Baduk/User/Task"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
-					<Add directory="d:\stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="E:/PEC_2024/PEC_2024/Core/Inc"/>
+					<Add directory="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
+					<Add directory="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include"/>
+					<Add directory="E:/PEC_2024/PEC_2024/User/BSP"/>
+					<Add directory="E:/PEC_2024/PEC_2024/User/FSM"/>
+					<Add directory="E:/PEC_2024/PEC_2024/User/Device"/>
+					<Add directory="E:/PEC_2024/PEC_2024/User/Task"/>
+					<Add directory="E:/PEC_2024/PEC_2024/User/Lib"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/include"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed"/>
+					<Add directory="D:/GNU_Arm_Embedded_GCC/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 PEC_2024.elf/fast"/>
-					<CompileFile command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 PEC_2024.elf/fast"/>
+					<CompileFile command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="F:/Desk/Baduk/cmake-build-debug"/>
+				<Option working_dir="E:/PEC_2024/PEC_2024/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="F:/Desk/Baduk/cmake-build-debug"/>
+				<Option working_dir="E:/PEC_2024/PEC_2024/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/STM32/Clion/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/Desk/Baduk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MingW/bin/mingw32-make.exe -f &quot;E:/PEC_2024/PEC_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/Desk/Baduk/Core/Inc/dma.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Inc/dma.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Inc/fdcan.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Inc/fdcan.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Inc/gpio.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Inc/gpio.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Inc/main.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Inc/main.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Inc/stm32g4xx_hal_conf.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Inc/stm32g4xx_hal_conf.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Inc/stm32g4xx_it.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Inc/stm32g4xx_it.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Inc/usart.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Inc/usart.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Src/dma.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Src/dma.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Src/fdcan.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Src/fdcan.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Src/gpio.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Src/gpio.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Src/main.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Src/main.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Src/stm32g4xx_hal_msp.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Src/stm32g4xx_hal_msp.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Src/stm32g4xx_it.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Src/stm32g4xx_it.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Src/syscalls.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Src/syscalls.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Src/sysmem.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Src/sysmem.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Src/system_stm32g4xx.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Src/system_stm32g4xx.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Src/usart.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Src/usart.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Core/Startup/startup_stm32g474vetx.s">
+		<Unit filename="E:/PEC_2024/PEC_2024/Core/Startup/startup_stm32g474vetx.s">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g474xx.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g474xx.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Device/ST/STM32G4xx/LICENSE.txt">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Device/ST/STM32G4xx/LICENSE.txt">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_armv81mml.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_armv81mml.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_cm35p.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_cm35p.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/CMSIS/LICENSE.txt">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/CMSIS/LICENSE.txt">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fdcan.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fdcan.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_cortex.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_cortex.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_crs.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_crs.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dmamux.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dmamux.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_gpio.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_gpio.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_lpuart.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_lpuart.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_system.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_system.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_usart.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_usart.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_utils.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_utils.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/LICENSE.txt">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/LICENSE.txt">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/STM32G474VETX_FLASH.ld">
+		<Unit filename="E:/PEC_2024/PEC_2024/STM32G474VETX_FLASH.ld">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/BSP/MyCan.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/BSP/MyCan.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/BSP/MyCan.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/BSP/MyCan.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/BSP/PID.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/BSP/VisionUnpack.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/BSP/PID.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/BSP/VisionUnpack.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/BSP/VisionUnpack.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/BSP/retarget.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/BSP/VisionUnpack.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/BSP/retarget.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/BSP/retarget.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/M2006.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/BSP/retarget.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/M2006.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/Device/M2006.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/Vision.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/Device/M2006.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/Vision.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/Device/Vision.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/deepmotor.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/Device/Vision.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/deepmotor.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/Device/deepmotor.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/magnet.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/Device/deepmotor.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Device/magnet.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/Device/magnet.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/FSM/Place.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/Device/magnet.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/FSM/Place.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/FSM/Place.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/FSM/Reset.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/FSM/Place.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/FSM/Reset.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/FSM/Reset.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Lib/PID.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/FSM/Reset.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Lib/PID.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/Task/fsm_main.c">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Task/fsm_main.c">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/User/Task/fsm_main.h">
+		<Unit filename="E:/PEC_2024/PEC_2024/User/Task/fsm_main.h">
 			<Option target="PEC_2024.elf"/>
 		</Unit>
-		<Unit filename="F:/Desk/Baduk/CMakeLists.txt">
+		<Unit filename="E:/PEC_2024/PEC_2024/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
