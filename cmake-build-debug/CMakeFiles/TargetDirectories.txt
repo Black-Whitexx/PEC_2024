@@ -1,0 +1,3 @@
+F:/Desk/Baduk/cmake-build-debug/CMakeFiles/PEC_2024.elf.dir
+F:/Desk/Baduk/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Desk/Baduk/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -36,6 +36,7 @@ void fsm_main(void){
 
 void debug(void){
 //    printf("ok\r\n");
+    Set_current(&hfdcan2,0X200,2000,2000,2000,2000);
     pid_test_motor(PID_TEST_POSITION,M2006_CURRENT_MAX,8);
     HAL_GPIO_TogglePin(GPIOE,GPIO_PIN_12);
     deepmotor_setposition(5);
